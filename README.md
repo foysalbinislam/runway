@@ -7,7 +7,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
 
-**Live demo:** [runwayy.streamlit.app](https://runwayy.streamlit.app/) · **Code:** [github.com/foysalbinislam/runway-hackathon](https://github.com/foysalbinislam/runway-hackathon)
+**Live demo:** [runwayy.streamlit.app](https://runwayy.streamlit.app/) · **Code:** [github.com/foysalbinislam/runway](https://github.com/foysalbinislam/runway)
 
 > **Sample data only.** Bradford Auto Care, its customers and its suppliers are fictional. No bank is connected, and no email is ever sent.
 
@@ -118,8 +118,8 @@ You need **Python 3.11 or newer** and two API keys: one from [Google AI Studio](
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/foysalbinislam/runway-hackathon.git
-cd runway-hackathon
+git clone https://github.com/foysalbinislam/runway.git
+cd runway
 ```
 
 ### 2. Add your keys
@@ -152,7 +152,7 @@ In the app, check that both keys show ✅ in the sidebar, then press **Load Dave
 ## Deploy on Streamlit Community Cloud
 
 1. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub, and choose **Create app**.
-2. Pick repository `foysalbinislam/runway-hackathon`, branch `main`, and main file **`app.py`**.
+2. Pick repository `foysalbinislam/runway`, branch `main`, and main file **`app.py`**.
 3. Under **Advanced settings**, choose Python 3.12 and paste this into **Secrets** (quotes are needed here):
 
 ```toml
